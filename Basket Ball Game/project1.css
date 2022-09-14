@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: rgb(3, 3, 92);
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    position: relative;
+    bottom: 50px;
+    color: #F94F6D;
+    width: 300px;
+    height: 250px;
+    margin: 30px;
+    border-radius: 5px;
+}
+.column h3{
+    font-size: 100px;
+    color: white;
+}
+.column h2{
+    font-size: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: none;
+    color: rgb(147, 134, 134);
+    border: 2px solid rgb(147, 134, 134);
+    width: 80px;
+    height: 80px;
+    border-radius: 3px ;
+    font-size: 50px;
+    margin: 10px;
+}
