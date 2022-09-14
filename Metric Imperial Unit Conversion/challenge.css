@@ -1,0 +1,126 @@
+body{
+    background: #F4F4F4;      
+}
+
+
+.container{
+    text-align: center;
+    background-color: #6943FF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40vh;
+}
+.container h1{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    left: 20px;
+}
+.container input {
+    width: 100px;
+    max-width: fit-content;
+    height: 80px;
+    border-radius: 5px;
+    border: 2px solid rgb(159, 159, 159);
+    background-color: #6943FF;
+    font-weight: bold;
+    font-size: 70px;
+    color: white;
+    position: relative;
+    left: 100px;
+    text-align: center;
+}
+.container button{
+    position: relative;
+    top: 20%;
+    right: 72px;
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    border: #6943FF;
+}
+.length{
+    color: #5A537B;
+    position: absolute;
+    width: 650px;
+    height: 100px;
+    left: 30vw;
+    top: 42%;
+    right: 28% ;
+    background: white;
+    border-radius: 4.68077px 0px 0px 0px;
+    text-align:center;
+    
+} 
+.length p{
+    position: absolute;
+    width: 500px;
+    height: 15px;
+    left: 70px;
+    top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #353535;
+    /* border: white; */
+}
+.volume{
+    /* position: relative; */
+    color: #5A537B;
+    position: absolute;
+    width: 650px;
+    height: 100px;
+    left: 30vw;
+    top: 60%;
+    background: white;
+    border-radius: 4.68077px 0px 0px 0px;
+    text-align:center;
+}
+.volume p{
+    position: absolute;
+    width: 500px;
+    height: 15px;
+    left: 70px;
+    top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #353535;
+    /* border: white; */
+}
+.mass{
+    /* position: relative; */
+    color: #5A537B;
+    position: absolute;
+    width: 650px;
+    height: 100px;
+    left: 30vw;
+    top: 80%;
+    background: white;
+    border-radius: 4.68077px 0px 0px 0px;
+    text-align:center;
+}
+.mass p{
+    position: absolute;
+    width: 500px;
+    height: 15px;
+    left: 70px;
+    top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #353535;
+    /* border: white; */
+}
+
