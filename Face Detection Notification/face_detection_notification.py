@@ -3,13 +3,13 @@ import cv2
 import clx.xms
 import requests
 
-client = clx.xms.Client(service_plan_id= 'dde77ba11a3a4c59b894119b833f2e41',
-                        token= '5d323d7d04f24bafa37af0ab1d472f7e')
+client = clx.xms.Client(service_plan_id= 'service ID',
+                        token= 'token ID')
 
 
 create = clx.xms.api.MtBatchTextSmsCreate()
-create.sender = '447520651616'
-create.recipients = {'919359966703'}
+create.sender = 'sender no'
+create.recipients = {'your phone number'}
 create.body = 'ALERT: Someone has approched your device'
 
 detector = cv2.CascadeClassifier('Face Detection\haarcascade_frontalface_default.xml')
